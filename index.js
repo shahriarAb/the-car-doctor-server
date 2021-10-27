@@ -66,6 +66,10 @@ app.get('/', (req, res) => {
     res.send('Getting response from genius-car-mechanics-server');
 });
 
+app.get('/updatecheck', (req, res) => {
+    res.send('Cheking updated server response!');
+});
+
 app.listen(port, () => {
     console.log('Running Genius Server on port:', port);
 })
