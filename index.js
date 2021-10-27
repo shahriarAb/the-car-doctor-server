@@ -67,7 +67,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/updatecheck', (req, res) => {
-    res.send('Cheking updated server response!');
+    res.send('Cheking updated server response! running...');
 });
 
 app.listen(port, () => {
