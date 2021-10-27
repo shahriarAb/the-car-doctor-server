@@ -61,13 +61,12 @@ async function run() {
 }
 run().catch(console.dir);
 
-
 app.get('/', (req, res) => {
-    res.send('Getting response from genius-car-mechanics-server');
+    res.send('Getting response from the-car-doctor-server');
 });
 
 app.get('/updatecheck', (req, res) => {
-    res.send('Cheking updated server response! running...');
+    res.send('Cheking updated server response...');
 });
 
 app.listen(port, () => {
